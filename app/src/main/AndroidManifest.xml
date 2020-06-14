@@ -12,17 +12,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".Security_Activity">
+=======
+        <activity android:name=".Security_Activity"></activity>
+        <activity android:name=".MainActivity">
+>>>>>>> 40a84cbeb7aed9fd34364237ee752f35fbb04037
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".MainActivity">
 
         </activity>
 
+=======
+>>>>>>> 40a84cbeb7aed9fd34364237ee752f35fbb04037
     </application>
 
 </manifest>

@@ -9,6 +9,7 @@
 
     <EditText
         android:id="@+id/etName"
+<<<<<<< HEAD
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -16,11 +17,21 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+>>>>>>> 40a84cbeb7aed9fd34364237ee752f35fbb04037
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
         android:lineSpacingExtra="14sp"
+<<<<<<< HEAD
         android:textColorHint="#FFEFEF"
+=======
+        android:text="Name"
+        android:textColorHint="#131312"
+>>>>>>> 40a84cbeb7aed9fd34364237ee752f35fbb04037
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,18 +40,27 @@
 
     <EditText
         android:id="@+id/etPassword"
+<<<<<<< HEAD
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+>>>>>>> 40a84cbeb7aed9fd34364237ee752f35fbb04037
         android:layout_marginBottom="480dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         android:textColorHighlight="#040303"
+<<<<<<< HEAD
         android:textColorHint="#FFEFEF"
+=======
+        android:textColorHint="#0C0C0C"
+>>>>>>> 40a84cbeb7aed9fd34364237ee752f35fbb04037
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,7 +74,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
+<<<<<<< HEAD
         android:text="Login"
+=======
+        android:text="Button"
+>>>>>>> 40a84cbeb7aed9fd34364237ee752f35fbb04037
         android:textColor="#111212"
         android:textColorHint="#8BC34A"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,6 +91,7 @@
 
     <TextView
         android:id="@+id/tvInfo"
+<<<<<<< HEAD
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -74,6 +99,10 @@
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         android:gravity="center"
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+>>>>>>> 40a84cbeb7aed9fd34364237ee752f35fbb04037
         android:text="TextView"
         android:textColor="#121010"
         android:textColorHint="#BC4722"
@@ -84,5 +113,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin"
         app:layout_constraintVertical_bias="0.354"
+<<<<<<< HEAD
         tools:text="Please Recheck Carefully!" />
+=======
+        tools:text="Please Login To Use Application!!!" />
+>>>>>>> 40a84cbeb7aed9fd34364237ee752f35fbb04037
 </androidx.constraintlayout.widget.ConstraintLayout>
